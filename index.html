@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наши услуги</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        .header {
+            background-image: url('https://cf.bstatic.com/xdata/images/hotel/max1280x900/300158703.jpg?k=53520a2cee5cd87da61d7269c7904c17c2d265a8ed820db6ab0b34ccb861ffd9&o=&hp=1%27');
+            background-size: cover;
+            background-position: center;
+            height: 250px;
+        }
+
+        .services {
+            text-align: center;
+            padding: 20px 20px;
+            background-color: #f8f9fa;
+        }
+
+        .services h2 {
+            font-size: 32px;
+            margin-bottom: 40px;
+            color: #666;
+            font-weight: 500;
+        }
+
+        .services h2::after {
+            content: '';
+            display: block;
+            width: 200px;
+            height: 3px;
+            background-color: #007bff;
+            margin: 10px auto 0;
+        }
+
+        .service-items {
+            display: flex;
+            justify-content: center;
+        }
+
+        .service-item {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 30px;
+            width: 280px;
+            text-align: center;
+            margin: 15px;
+        }
+
+        .service-item span {
+            font-size: 50px;
+        }
+
+        .service-item h3 {
+            font-size: 25px;
+            margin-bottom: 15px;
+            color: #666;
+            font-weight: 500;
+        }
+
+        .service-item p {
+            font-size: 15px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="header"></div>
+
+    <div class="services">
+        <h2>Наші послуги</h2>
+        <div class="service-items">
+            <div class="service-item">
+                <span class="icon">🏛️</span>
+                <h3>Прибирання снігу з дахів</h3>
+                <p>Очищення покрівлі від криги та скидання снігу з даху</p>
+            </div>
+            <div class="service-item">
+                <span class="icon">🔨</span>
+                <h3>Збивання бурульок</h3>
+                <p>Видалення бурульок і криги з карнизів будівлі та фасаду</p>
+            </div>
+            <div class="service-item">
+                <span class="icon">🚚</span>
+                <h3>Очищення території</h3>
+                <p>Чищення території від снігу, вантаження і вивезення снігу та льоду</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
